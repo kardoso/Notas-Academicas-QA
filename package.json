@@ -1,0 +1,20 @@
+{
+  "name": "notas-academicas",
+  "version": "1.0.0",
+  "description": "Sistema de cálculo de notas acadêmicas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "npx eslint index.js"
+  },
+  "author": "Samuel Cardoso",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "@stryker-mutator/core": "^8.5.0",
+    "@stryker-mutator/jest-runner": "^8.5.0",
+    "eslint": "^9.11.0",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0"
+  }
+}
